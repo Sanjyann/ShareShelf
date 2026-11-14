@@ -41,7 +41,7 @@ const MOCK_CATEGORIES: Category[] = [
   },
 ];
 
-const MOCK_ITEMS: Item[] = [
+export const MOCK_ITEMS: Item[] = [
   {
     id: "101",
     title: "TI-84 Plus CE Graphing Calculator",

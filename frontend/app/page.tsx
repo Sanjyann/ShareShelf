@@ -16,6 +16,8 @@ import {
   RefreshCw,
 } from "lucide-react";
 
+export const instant = false;
+
 export default async function LandingPage() {
   const [categories, recentItems] = await Promise.all([
     itemsService.getCategories(),
